@@ -1,0 +1,40 @@
+.tile-wrapper {
+    display: flex; 
+    margin-bottom: 20px;
+    padding: 20px 30px;
+    background-color: rgb(171, 138, 187, 0.4);
+    min-width: 600px;
+}
+
+.tile-avatar {
+    width: 80px;
+    margin-right: 30px;
+}
+
+.tile-avatar img {
+    max-width: 100%;
+}
+
+.tile-content {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.tile-content h3{
+    margin: 0;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
+.tile-content a{
+    display: inline-block;
+}
+
+.tile-content__key {
+    font-weight: 600;
+    margin-right: 5px;
+}
+ 
